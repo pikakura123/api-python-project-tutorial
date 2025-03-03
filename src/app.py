@@ -29,7 +29,7 @@ print("Conexión con la API de Spotify establecida correctamente.")
 
 try:
     # Paso 4: Realizar solicitudes a la API para obtener las canciones top de Mozart
-    artist_id = '4NJhFmfw43RLBLjQvxDuRS'
+    artist_id = '1Xyo4u8uXC1ZmMpatF05PJ'
 
     # Obtener el top 10 de canciones del artista
     top_tracks = sp.artist_top_tracks(artist_id, country='US')['tracks'][:10]
